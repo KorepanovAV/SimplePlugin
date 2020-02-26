@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>775d1acd-6840-4f64-9441-d9ec916bcd83</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DemoEncryptionPlugin.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AdditionalInfoList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Certificate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EncryptionPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EncryptionPlugin2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugin.cs" />
+  </ItemGroup>
+</Project>

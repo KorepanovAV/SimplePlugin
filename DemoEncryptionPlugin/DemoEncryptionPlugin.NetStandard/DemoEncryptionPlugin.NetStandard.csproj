@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SPDemoEncryptionPlugin</AssemblyName>
+  </PropertyGroup>
+
+  <Import Project="..\DemoEncryptionPlugin.Shared\DemoEncryptionPlugin.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <Reference Include="SBPluginInterfaceLibrary">
+      <HintPath>..\..\..\..\..\Projects\TFS\7.58\7.58.0.DEV\IS-Builder\_bin\Debug\SBPluginInterfaceLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
