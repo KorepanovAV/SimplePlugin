@@ -7,6 +7,6 @@
 
   public static class StartPoint
   {
-    public static SBPluginInterfaceLibrary.IPlugin GetInterface() => new EncryptionPlugin();
+    public static SBPluginInterfaceLibrary.IPlugin GetInterface() => new EncryptionPlugin2();
   }
 }

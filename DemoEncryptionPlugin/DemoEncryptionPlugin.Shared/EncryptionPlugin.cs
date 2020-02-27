@@ -5,7 +5,7 @@
   using System.Text;
   using SBPluginInterfaceLibrary;
 
-  class EncryptionPlugin: Plugin, IEncryptionPlugin
+  class EncryptionPlugin: Plugin2, IEncryptionPlugin
   {
     public bool CreateSignature(string Content, ICertificate CreateCertificate, out string Signature, out string CreateMsg, ref DateTime CreateDateTime)
     {

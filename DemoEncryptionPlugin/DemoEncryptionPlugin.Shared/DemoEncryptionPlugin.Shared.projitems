@@ -14,5 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)EncryptionPlugin.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)EncryptionPlugin2.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugin2.cs" />
   </ItemGroup>
 </Project>
