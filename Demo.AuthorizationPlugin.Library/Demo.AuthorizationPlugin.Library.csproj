@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Plugin.Library\Demo.Plugin.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SBPluginInterfaceLibrary">
+      <HintPath>..\Demo.Plugin.Library\libs\SBPluginInterfaceLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
